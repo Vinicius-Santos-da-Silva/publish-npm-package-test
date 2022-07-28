@@ -9,6 +9,12 @@ Object.defineProperty(exports, "Badge", {
     return _Badge.default;
   }
 });
+Object.defineProperty(exports, "Breadcrumbs", {
+  enumerable: true,
+  get: function get() {
+    return _Breadcrumbs.default;
+  }
+});
 Object.defineProperty(exports, "Button", {
   enumerable: true,
   get: function get() {
@@ -19,5 +25,7 @@ Object.defineProperty(exports, "Button", {
 var _Badge = _interopRequireDefault(require("./components/Badge"));
 
 var _Button = _interopRequireDefault(require("./components/Button"));
+
+var _Breadcrumbs = _interopRequireDefault(require("./components/Breadcrumbs"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
