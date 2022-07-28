@@ -1,3 +1,5 @@
 import Badge from './components/Badge';
 import Button from './components/Button';
-export { Badge, Button };
+import Breadcrumbs from './components/Breadcrumbs';
+
+export { Badge, Button, Breadcrumbs };
