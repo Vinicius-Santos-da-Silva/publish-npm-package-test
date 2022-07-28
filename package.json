@@ -1,7 +1,15 @@
 {
   "name": "npm-test-button-vinicius",
-  "version": "0.1.0",
-  "private": true,
+  "keywords": ["react", "components", "ui"],
+  "version": " 0.1.0",
+  "private": false,
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": [ "dist", "README.md" ] ,
+  "repositório": {
+      "tipo": "git",
+      "url": "git+https://github.com/Vinicius-Santos-da-Silva/publish-npm-package-test.git"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
